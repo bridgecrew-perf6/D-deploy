@@ -1,0 +1,35 @@
+{
+  "name": "d-deploy",
+  "version": "1.0.0",
+  "description": "前端自动化部署库",
+  "main": "src/index.js",
+  "bin": {
+    "d-deploy": "./bin/d-deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifechat/D-deploy.git"
+  },
+  "type": "module",
+  "keywords": [
+    "deploy",
+    "自动化部署"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lifechat/D-deploy/issues"
+  },
+  "homepage": "https://github.com/lifechat/D-deploy#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "crypto-js": "^4.1.1",
+    "node-ssh": "^12.0.4",
+    "ora": "^6.1.0",
+    "qiniu": "^7.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  }
+}
