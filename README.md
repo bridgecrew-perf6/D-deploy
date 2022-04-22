@@ -14,7 +14,7 @@ Web前端项目自动部署脚本
 ## Install
 
 ```shell
-npm install git+ssh://git@git.benewtech.cn:33/web/web-deploy.git --save-dev
+npm install d-deploy
 ```
 
 ## Usage
